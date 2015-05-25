@@ -28,15 +28,16 @@
 				<div id="sky"></div>
 				
 				
-				<script src="Game.js"></script>
 				<script src="Sky.js"></script>
+				<script src="Game.js"></script>
 				<script>
 						var container = document.getElementById('sky');
 						var sky = new Sky();
 						sky.initialise(container);
 						sky.start();
 						
-						var gameCanvas = document.createElement("canvas");
+						// Fix this
+						var gameCanvas = document.getElementById("gameCanvas");
             gameCanvas.width = window.innerWidth;
             gameCanvas.height = window.innerHeight / 3;
  
