@@ -6,7 +6,7 @@ function Game() {
     fps: 50
   };
  
-  this.lives = 3;
+  this.lives = 5;
   this.width = 0;
   this.height = 0;
   this.gameBound = {left: 0, top: 0, right: 0, bottom: 0};
